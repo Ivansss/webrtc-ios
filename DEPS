@@ -21,7 +21,7 @@ deps = {
     Var('chromium_git') + '/external/junit@64155f8a9babcfcf4263cf4d08253a1556e75481',
 
   'src/strukturag-inhouse/inhouse-deps/nss':
-    Var('chromium_git') + '/chromium/deps/nss@87b96db4268293187d7cf741907a6d5d1d8080e0' # NSS 3.16.7.
+    Var('chromium_git') + '/chromium/deps/nss@9014ff711cae72152f811056b333062664ed82ac' # NSS 3.23 (iOS).
 }
 
 deps_os = {
